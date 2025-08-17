@@ -1,9 +1,8 @@
 # Quarterly Earnings Brief
-<span>23f3000048@ds.study.iitm.ac.in</span>
-
-- Technical consultant update
-- Modern, interactive presentation
-- Published on GitHub Pages
+23f3000048@ds.study.iitm.ac.in
+	•	Technical consultant update
+	•	Interactive Reveal.js deck
+	•	Published on GitHub Pages
 
 Notes:
 Open with the macro context and remind stakeholders of strategic KPIs.
@@ -67,8 +66,15 @@ def amortization_schedule(principal, annual_rate, periods):
         interest = balance * r
         principal_paid = pmt - interest
         balance -= principal_paid
-        rows.append((n, round(pmt, 2), round(interest, 2), round(principal_paid, 2), round(balance, 2)))
+        rows.append((
+            n,
+            round(pmt, 2),
+            round(interest, 2),
+            round(principal_paid, 2),
+            round(balance, 2)
+        ))
     return rows
+
 ```
 
 
