@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Quarterly Earnings — Interactive Deck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@5/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/highlight.js@11.9.0/styles/github-dark.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Use Markdown file for at least one slide -->
+      <section
+        data-markdown="slides.md"
+        data-separator="^\n---\n$"
+        data-separator-vertical="^\n--\n$"
+        data-separator-notes="^Notes?:">
+      </section>
+
+      <!-- Extra HTML slide (optional) -->
+      <section>
+        <h2>Appendix: Reference Links</h2>
+        <p class="fragment">Internal analytics dashboards</p>
+        <p class="fragment">Regulatory filings</p>
+        <aside class="notes">
+          Mention which dashboards are live vs. archived; keep URLs internal.
+        </aside>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@5/plugin/markdown/markdown.js"></script>
+  <script src="https://unpkg.com/reveal.js@5/plugin/notes/notes.js"></script>
+
+  <!-- Math rendering (KaTeX) -->
+  <script src="https://unpkg.com/reveal.js@5/plugin/math/math.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+
+  <!-- Syntax highlighting -->
+  <script src="https://unpkg.com/highlight.js@11.9.0/lib/common.min.js"></script>
+
+  <script src="assets/js/init.js"></script>
+</body>
+</html>
