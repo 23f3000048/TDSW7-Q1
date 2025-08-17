@@ -1,11 +1,13 @@
 # Quarterly Earnings Brief
 23f3000048@ds.study.iitm.ac.in
-	•	Technical consultant update
-	•	Interactive Reveal.js deck
-	•	Published on GitHub Pages
+
+- Technical consultant update
+- Interactive Reveal.js deck
+- Published on GitHub Pages
 
 Notes:
 Open with the macro context and remind stakeholders of strategic KPIs.
+
 
 ---
 
